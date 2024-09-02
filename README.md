@@ -52,7 +52,7 @@ pip install numpy pandas scikit-learn matplotlib seaborn xgboost
 ## Results
 The final model selected for deployment is **XGBoost**, which outperformed other models with the following performance metrics:
 - **AUC-ROC for test**: 0.9495
-- **KS value**:0.78
+- **KS value**:0.78<br>
 The model demonstrates strong predictive power and is robust in identifying potential subscribers to the term deposit product.
 
 ## Contributors
