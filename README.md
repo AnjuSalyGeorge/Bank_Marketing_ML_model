@@ -41,6 +41,7 @@ pip install numpy pandas scikit-learn matplotlib seaborn xgboost
 ### 3. **Model Evaluation**
    - Evaluate the models using metrics such as accuracy, precision, recall, F1-score, and AUC-ROC curve.
    - Select the best model based on performance metrics.
+   - Generate a Gains Table, calculate the KS value and Cumulative Lift, and plot the Monotonic Rank Ordering Plot to assess model effectiveness and rank-order stability.
 
 ### 4. **Prediction**
    - Use the trained model to predict whether a new client will subscribe to a term deposit.
