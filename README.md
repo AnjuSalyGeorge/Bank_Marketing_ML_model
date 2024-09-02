@@ -1,4 +1,4 @@
-**Bank Marketing Campaign - Predicting Client Subscription**
+# **Bank Marketing Campaign - Predicting Client Subscription**
 
 ## Objective
 The goal of this project is to build and evaluate machine learning models to predict whether a client will subscribe to a term deposit based on data from a direct marketing campaign conducted by a Portuguese banking institution.
@@ -39,7 +39,7 @@ pip install numpy pandas scikit-learn matplotlib seaborn xgboost
    - Use cross-validation and hyperparameter tuning to optimize the models.
 
 ### 3. **Model Evaluation**
-   - Evaluate the models using metrics such as accuracy, precision, recall, F1-score, and AUC-ROC curve.
+   - Evaluate the models using metrics such as score, AUC-ROC  score and curve.
    - Select the best model based on performance metrics.
    - Generate a Gains Table, calculate the KS value and Cumulative Lift, and plot the Monotonic Rank Ordering Plot to assess model effectiveness and rank-order stability.
 
@@ -47,16 +47,12 @@ pip install numpy pandas scikit-learn matplotlib seaborn xgboost
    - Use the trained model to predict whether a new client will subscribe to a term deposit.
 
 ### 5. **Visualization**
-   - Visualize the distribution of variables, feature importance, and model performance using plots.
+   - Visualize the distribution of variables and model performance using plots.
 
 ## Results
 The final model selected for deployment is **XGBoost**, which outperformed other models with the following performance metrics:
-- **Accuracy**: XX%
-- **Precision**: XX%
-- **Recall**: XX%
-- **F1-Score**: XX%
-- **AUC-ROC**: XX
-
+- **AUC-ROC for test**: 0.9495
+- **KS value**:0.78
 The model demonstrates strong predictive power and is robust in identifying potential subscribers to the term deposit product.
 
 ## Contributors
